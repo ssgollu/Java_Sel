@@ -8,9 +8,10 @@ public class SquareCubeFourthPower {
 		System.out.println("Enter a number: ");
 		Scanner obj = new Scanner(System.in);
 		double num = obj.nextDouble();
-		System.out.println("Square root is : " + (num*num));
-		System.out.println("Cube root is : " + (num*num*num));
-		System.out.println("Fourth root is : " + (num*num*num*num));
+		double squarert = num*num;
+		System.out.println("Square root is : " + (squarert));
+		System.out.println("Cube root is : " + (squarert*num));
+		System.out.println("Fourth root is : " + (squarert*squarert));
 	}
 
 }
