@@ -1,7 +1,5 @@
 package assignments;
 
-import org.yaml.snakeyaml.events.Event.ID;
-
 public class Divisibleby3and5 {
 
 	public static void main(String[] args) {
