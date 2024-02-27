@@ -2,8 +2,6 @@ package assignments;
 
 import java.util.Scanner;
 
-import net.bytebuddy.agent.builder.AgentBuilder.CircularityLock.Default;
-
 public class InfiniteLoops {
 
 	public static void main(String[] args) {
