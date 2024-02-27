@@ -17,7 +17,7 @@ public class First20PrimeNumbers {
 
 			}
 			if(isPrime) {
-				System.out.print(num +" ");
+				System.out.println(num);
 				count++;
 			}
 			num++;
